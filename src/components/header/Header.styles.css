@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ff8c21;
+  color: #fff;
+  padding: 16px 50px;
+  z-index: 1000;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-title {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2rem;
+}
